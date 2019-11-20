@@ -14,8 +14,8 @@
 
 var msalConfig = {
 	auth: {
-		clientId: '6c2bd7d0-e90e-481f-8170-0fc701ec64ce',
-		authority: 'https://login.microsoftonline.com/orgnaizations',		
+		clientId: 'c878d507-0666-4b02-aacb-46ec8b0d8506',
+		authority: 'https://login.microsoftonline.com/common',		
 		redirectURI: 'http://localhost:5500'
 	},
 	cache: {
@@ -33,10 +33,10 @@ var graphConfig = {
 			scopes: ['user.read'],
 		},
 		api1: {
-			scopes: ['api://35e777f5-0951-492c-9294-e76423e2b6c9/all'],
+			scopes: ['api://c878d507-0666-4b02-aacb-46ec8b0d8506/internal-api'],
 		},
 		api2: {
-			scopes: ['api://200ce420-97a4-4542-9a97-788a2ecd7c3c/all'],
+			scopes: ['api://c878d507-0666-4b02-aacb-46ec8b0d8506/internal-api'],
 		}
 	}
 };
