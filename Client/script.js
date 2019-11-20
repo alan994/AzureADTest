@@ -15,7 +15,7 @@
 var msalConfig = {
 	auth: {
 		clientId: '6c2bd7d0-e90e-481f-8170-0fc701ec64ce',
-		authority: 'https://login.microsoftonline.com/organizations',		
+		authority: 'https://login.microsoftonline.com/orgnaizations',		
 		redirectURI: 'http://localhost:5500'
 	},
 	cache: {
